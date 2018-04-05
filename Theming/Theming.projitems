@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{E9648532-5409-44B7-BB35-8EC3C9D6ED10}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Theming</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)ThemingPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\AppColors.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ThemingPage.xaml.cs">
+      <DependentUpon>ThemingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\AppColors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServiceLayer\ServiceLogic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\AppColorsTemp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
+    <Folder Include="$(MSBuildThisFileDirectory)DataLayer\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ServiceLayer\" />
+  </ItemGroup>
+</Project>
