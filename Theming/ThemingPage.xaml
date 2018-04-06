@@ -20,6 +20,8 @@
             Style="{StaticResource ButtonStyle}"
             Clicked="OnChangeStyleClicked" />
 
+        <Label x:Name="TestLabel"
+               Text="This is a test" />
         
         
     </StackLayout>
