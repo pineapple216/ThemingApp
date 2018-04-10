@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Theming</string>
 	<key>CFBundleIdentifier</key>
-	<string>nl.belastingdienst.theming</string>
+	<string>nl.belastingdienst.koen.test.acc</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
