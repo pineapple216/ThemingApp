@@ -15,6 +15,10 @@ Global
 		Debug|iPhone = Debug|iPhone
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Debug EMM|iPhone = Debug EMM|iPhone
+		Debug EMM|iPhoneSimulator = Debug EMM|iPhoneSimulator
+		Release EMM|iPhoneSimulator = Release EMM|iPhoneSimulator
+		Release EMM|iPhone = Release EMM|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
@@ -28,6 +32,14 @@ Global
 		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
 		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Debug EMM|iPhone.ActiveCfg = Debug EMM|iPhone
+		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Debug EMM|iPhone.Build.0 = Debug EMM|iPhone
+		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Debug EMM|iPhoneSimulator.ActiveCfg = Debug EMM|iPhoneSimulator
+		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Debug EMM|iPhoneSimulator.Build.0 = Debug EMM|iPhoneSimulator
+		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Release EMM|iPhoneSimulator.ActiveCfg = Release EMM|iPhoneSimulator
+		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Release EMM|iPhoneSimulator.Build.0 = Release EMM|iPhoneSimulator
+		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Release EMM|iPhone.ActiveCfg = Release EMM|iPhone
+		{E62FC140-FBAE-498B-A889-AA1056B7330A}.Release EMM|iPhone.Build.0 = Release EMM|iPhone
 		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
@@ -36,5 +48,9 @@ Global
 		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Debug EMM|iPhone.ActiveCfg = Debug|Any CPU
+		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Debug EMM|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Release EMM|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D493B80B-32B4-42B9-AE3F-E2E952A9421A}.Release EMM|iPhone.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
