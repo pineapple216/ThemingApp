@@ -15,8 +15,8 @@ namespace Theming.ServiceLayer
         static Lazy<ServiceLogic> _instance = new Lazy<ServiceLogic>(() => new ServiceLogic());
         public static ServiceLogic Instance { get { return _instance.Value; } }
 
-        const string colorsJsonV1 = "{\"LbgcString\": \"#6e7c8e\",\"LtcString\": \"#000000\"}";
-        const string colorsJsonV2 = "{\"LbgcString\": \"#000000\",\"LtcString\": \"#ffffff\"}";
+        const string colorsJsonV1 = "{\"LbgcString\": \"#FF69B4\",\"LtcString\": \"#FFFFFF\"}";
+        const string colorsJsonV2 = "{\"LbgcString\": \"#008141\",\"LtcString\": \"#ffffff\"}";
         bool isColorsJsonV1Loaded = false;
 
         public void Initialize()
@@ -41,7 +41,7 @@ namespace Theming.ServiceLayer
             {
                 await Task.Run(() =>
                 {
-                    Thread.Sleep(4000);
+                    Thread.Sleep(2000);
 
                     //var colorsJson = File.ReadAllText("Resources/AppColors.json");
                     var colorsJson = isColorsJsonV1Loaded ? colorsJsonV2 : colorsJsonV1;
