@@ -12,10 +12,21 @@ namespace Theming
     {
         static bool _isToggled = false;
 
+
         public ThemingPage()
         {
             InitializeComponent();
             //LoadColors();
+
+            #if ONT
+            TestLabel.Text = "ONT Build";
+            #elif TST
+            TestLabel.Text = "TST Build";
+            #elif ACC
+            TestLabel.Text = "ACC Build";
+            #elif PROD
+            TestLabel.Text = "PROD Build";
+            #endif
         }
 
         //private async Task LoadColors()

@@ -16,7 +16,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\iPhone\ONT</OutputPath>
-    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;ENABLE_TEST_CLOUD;DEBUG</DefineConstants>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;ENABLE_TEST_CLOUD;DEBUG;ONT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Distribution: Ministerie van Financien</CodesignKey>
@@ -56,7 +56,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhone\TST</OutputPath>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;TST</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Distribution: Ministerie van Financien</CodesignKey>
     <MtouchVerbosity></MtouchVerbosity>
@@ -73,7 +73,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhone\ACC</OutputPath>
-    <DefineConstants></DefineConstants>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;ACC</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Distribution: Ministerie van Financien</CodesignKey>
     <MtouchVerbosity></MtouchVerbosity>
@@ -114,7 +114,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhone\PROD</OutputPath>
-    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;</DefineConstants>
+    <DefineConstants>__IOS__;__MOBILE__;__UNIFIED__;PROD</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchVerbosity></MtouchVerbosity>

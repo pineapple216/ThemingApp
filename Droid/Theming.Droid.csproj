@@ -46,14 +46,6 @@
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
     <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'PROD|iPhone' ">
-    <DebugType></DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\iPhone\PROD</OutputPath>
-    <WarningLevel>4</WarningLevel>
-    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-    <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
-  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'PROD|AnyCPU' ">
     <DebugType></DebugType>
     <Optimize>false</Optimize>
