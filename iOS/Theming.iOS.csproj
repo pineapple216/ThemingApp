@@ -85,30 +85,6 @@
     <MtouchUseLlvm>true</MtouchUseLlvm>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ONT|AnyCPU' ">
-    <Optimize>false</Optimize>
-    <OutputPath>bin\ONT</OutputPath>
-    <DefineConstants></DefineConstants>
-    <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
-    <MtouchVerbosity></MtouchVerbosity>
-    <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'TST|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\TST</OutputPath>
-    <DefineConstants></DefineConstants>
-    <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
-    <MtouchVerbosity></MtouchVerbosity>
-    <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
-  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'PROD|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>pdbonly</DebugType>
@@ -124,17 +100,6 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchUseLlvm>true</MtouchUseLlvm>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'PROD|AnyCPU' ">
-    <Optimize>false</Optimize>
-    <OutputPath>bin\PROD</OutputPath>
-    <DefineConstants></DefineConstants>
-    <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
-    <MtouchVerbosity></MtouchVerbosity>
-    <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
