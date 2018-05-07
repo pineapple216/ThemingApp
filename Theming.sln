@@ -17,9 +17,7 @@ Global
 		ONT|iPhone = ONT|iPhone
 		ONT|iPhoneSimulator = ONT|iPhoneSimulator
 		TST|iPhone = TST|iPhone
-		TST|iPhoneSimulator = TST|iPhoneSimulator
 		ACC|Any CPU = ACC|Any CPU
-		ACC|iPhoneSimulator = ACC|iPhoneSimulator
 		ACC|iPhone = ACC|iPhone
 		ONT|Any CPU = ONT|Any CPU
 		TST|Any CPU = TST|Any CPU

@@ -17,6 +17,7 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ACC|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,36 +28,36 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
-    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-    <AndroidSupportedAbis>armeabi-v7a</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ONT|AnyCPU' ">
-    <DebugType></DebugType>
-    <Optimize>true</Optimize>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
     <OutputPath>bin\ONT</OutputPath>
-    <DefineConstants>ONT</DefineConstants>
+    <DefineConstants>ONT;DEBUG</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidSupportedAbis>armeabi-v7a;armeabi;x86;arm64-v8a;x86_64</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'TST|AnyCPU' ">
-    <DebugType></DebugType>
-    <Optimize>true</Optimize>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
     <OutputPath>bin\TST</OutputPath>
-    <DefineConstants>TST</DefineConstants>
+    <DefineConstants>TST;DEBUG</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidSupportedAbis>armeabi-v7a;armeabi;x86;arm64-v8a;x86_64</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'PROD|AnyCPU' ">
-    <DebugType></DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\PROD</OutputPath>
     <DefineConstants>PROD</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
