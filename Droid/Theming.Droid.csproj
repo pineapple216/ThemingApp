@@ -38,7 +38,7 @@
     <DefineConstants>ONT</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-    <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
+<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'TST|AnyCPU' ">
     <DebugType></DebugType>
@@ -47,7 +47,7 @@
     <DefineConstants>TST</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-    <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
+<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'PROD|AnyCPU' ">
     <DebugType></DebugType>
@@ -56,7 +56,7 @@
     <DefineConstants>PROD</DefineConstants>
     <WarningLevel>4</WarningLevel>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
-    <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
+<AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
