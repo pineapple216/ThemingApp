@@ -14,16 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|iPhoneSimulator = Debug|iPhoneSimulator
-		Release|iPhone = Release|iPhone
-		Release|iPhoneSimulator = Release|iPhoneSimulator
-		Debug|iPhone = Debug|iPhone
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-		Debug EMM|iPhone = Debug EMM|iPhone
-		Debug EMM|iPhoneSimulator = Debug EMM|iPhoneSimulator
-		Release EMM|iPhoneSimulator = Release EMM|iPhoneSimulator
-		Release EMM|iPhone = Release EMM|iPhone
 		ONT|iPhone = ONT|iPhone
 		ONT|iPhoneSimulator = ONT|iPhoneSimulator
 		TST|iPhone = TST|iPhone
